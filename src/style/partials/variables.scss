@@ -1,0 +1,28 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container-sm{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 80px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    color: #5E5F63;
+}
+
+.row{
+    display: flex;
+}
