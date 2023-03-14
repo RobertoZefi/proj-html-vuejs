@@ -1,5 +1,14 @@
 <script>
+    import Section4 from './Section4.vue';
+    import Section5 from './Section5.vue';
+    import Section6 from './Section6.vue';
     export default{
+        components:{
+            Section4,
+            Section5,
+            Section6,
+        },
+
         data(){
             return{
                 
@@ -89,6 +98,10 @@
                 <a class="button" href="#">view our work</a>
             </div>
         </section>
+
+        <Section4 />
+        <Section5 />
+        <Section6 />
     </main>
 </template>
 
@@ -130,7 +143,7 @@
 .section-2{
     background-color: #051642;
     background-image: url('/images/pattern_background.png');
-    background-size: contain;
+    background-size: cover;
     color: white;
     padding-bottom: 130px;
     .subtitle{
@@ -180,6 +193,7 @@
     }
     .img{
         flex-basis: calc(100% / 3);
+        width: 100%;
     }
     
     .button{
@@ -192,6 +206,7 @@
         color: white;
         display: inline-block;
         margin-top: 50px;
+        font-size: 15px;
     }
 }
 </style>
