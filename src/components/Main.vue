@@ -88,12 +88,12 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <img src="/images/case-study-gallery-3-1-400x300.jpg" alt="">
-                    <img src="/images/case-study-gallery-2-400x300.jpg" alt="">
-                    <img src="/images/case-study-gallery-1-1-400x300.jpg" alt="">
-                    <img src="/images/case-study-gallery-4-1-400x300.jpg" alt="">
-                    <img src="/images/case-study-gallery-5-1-400x300.jpg" alt="">
-                    <img src="/images/case-study-gallery-6-1-400x300.jpg" alt="">
+                    <img src="/images/case-study-gallery-3-1-600x450.jpg" alt="">
+                    <img src="/images/case-study-gallery-2-600x450.jpg" alt="">
+                    <img src="/images/case-study-gallery-1-1-600x450.jpg" alt="">
+                    <img src="/images/case-study-gallery-4-1-600x450.jpg" alt="">
+                    <img src="/images/case-study-gallery-5-1-600x450.jpg" alt="">
+                    <img src="/images/case-study-gallery-6-1-600x450.jpg" alt="">
                 </div>
                 <a class="button" href="#">view our work</a>
             </div>
@@ -189,11 +189,10 @@
     .row{
         flex-wrap: wrap;
         gap: 20px;
-        justify-content: center;
     }
-    .img{
-        flex-basis: calc(100% / 3);
-        width: 100%;
+    
+    img{
+        width: calc(100% / 3 - 80px / 6);
     }
     
     .button{
